@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="pt_BR">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Flávio Casas de Arcega</title>
+    <meta name="description" content="Página pessoal de Flávio Casas de Arcega." />
+    <link rel="canonical" href="http://flavio.arcega.com.br/" />
+
+    <link rel="stylesheet" href="webslides.css" type='text/css' media='all' />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" />
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" sizes="16x16" href="favicon.png" />
+    <link rel="shortcut icon" sizes="32x32" href="favicon-32.png" />
+    <link rel="apple-touch-icon icon" sizes="76x76" href="favicon-76.png" />
+    <link rel="apple-touch-icon icon" sizes="120x120" href="favicon-120.png" />
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#333333" />
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@flavioarcega" />
+    <meta name="twitter:creator" content="@flavioarcega" />
+    <meta name="twitter:title" content="Flávio Casas de Arcega" />
+    <meta name="twitter:description" content="Página pessoal de Flávio Casas de Arcega." />
+    <meta name="twitter:image" content="twitter-image.jpg" />
+</head>
+
+<body>
+  <header class="banner" style="background-color: rgba(0,0,0,0.1)">
+    <nav>
+      <p class="logo"><a href="./index.html" title="Página Inicial">Página Inicial</a></p>
+      <ul>
+        <li>
+          <a href="#slide=1" title="Objetivo">Objetivo</a>
+        </li>
+        <li>
+          <a href="#slide=2" title="Visão Geral">Visão Geral</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+<!------------------------------------------------------------------------------------------
+  - Each parent <section> in the <article id="webslides"> element is an individual slide.  -
+  - Vertical sliding = <article id="webslides" class="vertical">                           -
+  - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;                 -
+  ------------------------------------------------------------------------------------------>
+
+  <main>
+    <article id="webslides">
+      <section class="slide-top">
+        <div class="size-70 aligncenter">
+          <h1><strong>Objetivo</strong></h1>
+          <p class="text-intro">
+Fazer uma apresentação inicial.
+          </p>
+        </div>
+      </section>
+      <section class="slide-top">
+        <div class="wrap">
+          <div class="grid vertical-align">
+            <div class="wrap aligncenter">
+              <h2><strong>Visão Geral</strong></h2>
+              <p class="text-intro">
+Dar uma Visão Geral sobre o tema.
+              </p>
+            </div>
+            <div class="wrap" style="padding-top: 2em">
+              <p style="margin-bottom: 5px; font-size: 1.2em; font-weight: bold;">Problemas comuns</p>
+              <ul style="list-style-type: circle">
+                <li>Perda de código-fonte</li>
+                <li>Falta de controle de acesso aos artefatos</li>
+                <li>Ausência de gestão das mudanças e atividades</li>
+                <li>Mudanças que reintroduzem erros</li>
+                <li>Impossibilidade de recuperar determinado estado/versão do sistema</li>
+                <li>Falta de sincronismo entre as atividades</li>
+                <li>Alterações paralelas e conflitantes que se sobrescrevem</li>
+                <li>Grande dificuldade em integrar as partes do software</li>
+                <li>Ambientes de desenvolvimento e produção diferentes (na minha máquina funciona)</li>
+              <ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="slide-top">
+        <div class="wrap aligncenter">
+          <h2><strong>Conceitos Associados</strong></h2>
+          <ul class="flexblock activity">
+            <li>
+              <div>
+                <p class="title">Artefato</p>
+                <p class="summary">Refere-se a todos os produtos de trabalho gerados durante o desenvolvimento de software (artefato = produto de trabalho).</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <p class="title">Produto de Software</p>
+                <p class="summary">Refere-se ao subconjunto de todos os artefatos gerados no projeto que é entregue ao cliente e/ou usuário final. (executáveis, documentação, utilitários de instalação, etc)</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="slide-top">
+        <div class="wrap aligncenter" style="padding: 3em 0 3em 0">
+          <h2><strong>Infraestrutura Corporativa</strong></h2>
+          <ul class="flexblock">
+            <li>
+              <div>
+                Cartão
+              </div>
+            </li>
+            <li>
+              <div>
+                Cartão
+              </div>
+            </li>
+            <li>
+              <div>
+                Cartão
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </article>
+  </main>
+</body>
+<script src="webslides.min.js"></script>
+<script>window.ws = new WebSlides()</script>
+</html>
