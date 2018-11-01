@@ -19,42 +19,44 @@
     <!-- Android -->
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="theme-color" content="#333333" />
-
-    <!-- TWITTER -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@flavioarcega" />
-    <meta name="twitter:creator" content="@flavioarcega" />
-    <meta name="twitter:title" content="Flávio Casas de Arcega" />
-    <meta name="twitter:description" content="Página pessoal de Flávio Casas de Arcega." />
-    <meta name="twitter:image" content="twitter-image.jpg" />
 </head>
-
 <body>
-  <header class="banner" style="background-color: rgba(0,0,0,0.1)">
+  <header class="banner">
     <nav>
-      <p class="logo"><a href="./index.html" title="Página Inicial">Página Inicial</a></p>
+      <p class="logo">
+        <a href="http://flavio.arcega.com.br/" title="Página Inicial">Página Inicial</a>
+      </p>
       <ul>
-        <li>
-          <a href="#slide=1" title="Home">Home</a>
-        </li>
+        <li><a href="#slide=2" title="Publicações">Publicações</a></li>
       </ul>
     </nav>
   </header>
-
-<!------------------------------------------------------------------------------------------
-  - Each parent <section> in the <article id="webslides"> element is an individual slide.  -
-  - Vertical sliding = <article id="webslides" class="vertical">                           -
-  - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;                 -
-  ------------------------------------------------------------------------------------------>
-
   <main>
     <article id="webslides">
-      <section class="slide-top">
+      <section>
         <div class="size-70 aligncenter">
-          <h1><strong>Flávio Casas de Arcega</strong></h1>
+          <h2><strong>Flávio Casas de Arcega</strong></h2>
           <p class="text-subtitle">
-            PGP Key: <a rel="pgpkey" href="./9958D3E9E46DDE96DE3EF5754CAF5EC6102F20CD.asc">9958D3E9E46DDE96DE3EF5754CAF5EC6102F20CD</a>
+            <strong>PGP Key:</strong>
+            <a rel="pgpkey" href="./9958D3E9E46DDE96DE3EF5754CAF5EC6102F20CD.asc">9958D3E9E46DDE96DE3EF5754CAF5EC6102F20CD</a>
           </p>
+          <p class="text-intro">
+            Graduado em Sistema de Informação e pós graduado em Engenharia de Software, trabalho com a plataforma java e
+            servidores GNU/Linux. Construí esse site na intenção de publicar orientações técnicas e materiais de apoio.
+          </p>
+          <div class="social">
+            <a rel="me" href="https://github.com/flavioarcega"><img src="github.png"/></a>
+            <a rel="me" href="https://google.com/+FlavioCasasdeArcega"><img src="gplus.png"/></a><br>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="slide-70 aligncenter">
+          <h3><strong>Apresentações<strong></h3>
+          <ul class="flexblock infotable">
+            <li class="labels"><p class="title">Título</p><p class="date">Atualizado</p></li>
+            <li><p class="title"><a href="">Gestão de Configuração de Software</a></p><p class="date">01/11/2018</p></li>
+          </ul>
         </div>
       </section>
     </article>

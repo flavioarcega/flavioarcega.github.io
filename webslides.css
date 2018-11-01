@@ -1080,13 +1080,10 @@ h1 span {
 
 /* -- Subtitle (Before h1, h2) p.subtitle + h1/h2 */
 .text-subtitle {
-  letter-spacing: .2rem;
+  font-size: 1.6rem; 
   margin-bottom: 0;
+  letter-spacing: 0.2rem;
   text-transform: uppercase; }
-  .text-subtitle p.text-subtitle {
-    font-size: 1.6rem; }
-    .text-subtitle p.text-subtitle svg {
-      vertical-align: text-top; }
   .text-subtitle + p {
     margin-top: 3.2rem; }
 
@@ -1742,6 +1739,10 @@ footer .column h3 {
   font-size: 1.8rem;
   line-height: 3.2rem; }
 
+.flexblock.blink .info {
+  font-size: 1.4rem;
+  line-height: 1rem; }
+
 .content-right .flexblock.features li,
 .content-left .flexblock.features li {
   width: 46%; }
@@ -2157,7 +2158,7 @@ CV / News
             flex: 1;
     position: relative;
     width: auto; }
-  .flexblock.activity p {
+  .flexblock.activity li.label p {
     margin-bottom: 0;
     vertical-align: top; }
   .flexblock.activity img {
@@ -2179,6 +2180,53 @@ CV / News
       width: 27%; }
     .flexblock.activity .summary {
       width: 50%; } }
+
+/*===========================================
+6.9.1 Block InfoTable <ul class="infotable">
+============================================= */
+.flexblock.infotable {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .flexblock.infotable li {
+    word-wrap: normal;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+    width: auto; 
+    display: inline;
+    position: relative;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
+  .flexblock.infotable p {
+    margin: 0;
+    padding: 0;
+    float: left; 
+    font-weight: 400; }
+  .flexblock.infotable li a {
+    font-weight: 500; }
+  .flexblock.infotable li.labels p {
+    font-weight: 600;
+    border-bottom: 0.2rem solid rgba(0, 0, 0, 0.6); }
+  .flexblock.infotable .title {
+    margin-right: 1rem;
+    width: 90rem; }
+  .flexblock.infotable .date {
+    width: 11rem; 
+    text-align: center; 
+    margin-right: 1rem; }
+  @media (min-width: 2768px) {
+    .flexblock.infotable p {
+      float: left; }
+    .flexblock.infotable .title {
+      width: 15%; }
+    .flexblock.infotable .title {
+      width: 27%; }
+    .flexblock.infotable .summary {
+      width: 50%; } }
+
 
 /*=============================================
 7. Promos/Offers (pricing, tagline, CTA...)
@@ -3319,8 +3367,17 @@ nav[role='navigation'] li a {
   nav[role='navigation'] li a:hover {
     background-color: rgba(50, 50, 50, 0.7); }
 
-nav li.twitter a:hover {
-  background-color: #1da1f3; }
+nav li {
+  border: 1px solid rgb(220,220,220);
+  border-radius: 1rem;
+  padding: 0.3rem 1rem; }
+nav li:hover {
+  background-color: rgb(235,235,235); }
+nav li a {
+  color: #6569ae; 
+  font-weight: 500; }
+nav li:hover a { 
+  font-weight: 900; }
 
 nav li.facebook a:hover {
   background-color: #3b5998; }
@@ -3786,3 +3843,13 @@ Slides Index
 
 .text-slide-number {
   color: #abc; }
+
+/*============================
+Social
+============================== */
+.social img {
+  height: 5rem;
+  margin: 1rem 0.5rem 1rem 0.5rem; }
+
+.border {
+  border: 1px solid black; }
