@@ -1,0 +1,23 @@
+/*
+ * Resets gerais
+ */
+html, 
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+/*
+ * Elementos personalizados
+ */
+#sobre a {
+  text-decoration: none; }
+
+/*
+ * Customizações bootstrap
+ */
+.table thead th {
+  border-top: 0; }
+.table .text-date {
+  text-align: center;
+  width: 7em; }

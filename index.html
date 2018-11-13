@@ -1,67 +1,99 @@
 <!doctype html>
 <html lang="pt_BR">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Página pessoal de Flávio Casas de Arcega." />
-    <title>Flávio Casas de Arcega</title>
-    <link rel="canonical" href="http://flavio.arcega.com.br/" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Página pessoal de Flávio Casas de Arcega." />
+  <title>Flávio Casas de Arcega</title>
+  <link rel="canonical" href="http://flavio.arcega.com.br/" />
 
-    <link rel="stylesheet" href="webslides.css" type='text/css' media='all' />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" />
+  <!-- FAVICONS -->
+  <link rel="shortcut icon" sizes="16x16" href="favicon.png" />
+  <link rel="shortcut icon" sizes="32x32" href="favicon-32.png" />
+  <link rel="apple-touch-icon icon" sizes="76x76" href="favicon-76.png" />
+  <link rel="apple-touch-icon icon" sizes="120x120" href="favicon-120.png" />
 
-    <!-- FAVICONS -->
-    <link rel="shortcut icon" sizes="16x16" href="favicon.png" />
-    <link rel="shortcut icon" sizes="32x32" href="favicon-32.png" />
-    <link rel="apple-touch-icon icon" sizes="76x76" href="favicon-76.png" />
-    <link rel="apple-touch-icon icon" sizes="120x120" href="favicon-120.png" />
-
-    <!-- Android -->
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="theme-color" content="#333333" />
+  <!-- Android -->
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="theme-color" content="#333333" />
+ 
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="site.css">
 </head>
-<body>
-  <header class="banner">
-    <nav>
-      <p class="logo">
-        <a href="http://flavio.arcega.com.br/" title="Página Inicial">Página Inicial</a>
-      </p>
-      <ul>
-        <li><a href="#slide=2" title="Publicações">Publicações</a></li>
-      </ul>
+<body class="fixed-top pt-5">
+  <header class="fixed-top w-100 fadeInHover" style="height: 3em; font-weight: 700; font-size: 110%">
+    <a class="nav-link float-left" href="index.html"><i class="fas fa-home"></i><b class="text-hide">Home</b></a>
+    <nav class="nav float-right justify-content-end">
+      <a class="nav-link" data-toggle="tab" href="#textos" title="Textos">Textos</a>
+      <a class="nav-link" data-toggle="tab" href="#apresentacoes" title="Apresentações">Apresentações</a>
     </nav>
   </header>
-  <main>
-    <article id="webslides">
-      <section>
-        <div class="size-70 aligncenter">
-          <h2><strong><a class="h-card vcard" rel="me" href="http://flavio.arcega.com.br/">Flávio Casas de Arcega</a></strong></h2>
-          <p class="text-subtitle">
-            <strong>PGP Key:</strong>
-            <a rel="pgpkey me authn" href="./9958D3E9E46DDE96DE3EF5754CAF5EC6102F20CD.asc">9958D3E9E46DDE96DE3EF5754CAF5EC6102F20CD</a>
-          </p>
-          <p class="text-intro p-note">
+  <main class="h-100 pt-5">
+    <article class="tab-content w-75 mx-auto">
+      <section class="tab-pane fade active show text-center">
+          <h1><b><a class="h-card vcard" rel="me" href="http://flavio.arcega.com.br/">Flávio Casas de Arcega</a></b></h1>
+          <p><b>PGP Key:</b><a rel="pgpkey me authn" href="./9958D3E9E46DDE96DE3EF5754CAF5EC6102F20CD.asc">9958D3E9E46DDE96DE3EF5754CAF5EC6102F20CD</a></p>
+          <p class="p-note">
             Graduado em Sistema de Informação e pós graduado em Engenharia de Software, trabalho com a plataforma java e
             servidores GNU/Linux. Este site tem o objetivo tornar público alguns materiais de minha autoria.
           </p>
-          <div class="social">
-            <a rel="me" href="https://github.com/flavioarcega"><img src="github.png"/></a>
-            <a rel="me" href="https://google.com/+FlavioCasasdeArcega"><img src="gplus.png"/></a><br>
+          <div>
+            <a rel="me" href="https://github.com/flavioarcega"><img style="max-height: 3em" src="github.png"></a>
+            <a rel="me" href="https://google.com/+FlavioCasasdeArcega"><img style="max-height: 3em" src="gplus.png"></a>
           </div>
-        </div>
       </section>
-      <section>
-        <div class="slide-70 aligncenter">
-          <h3><strong>Apresentações<strong></h3>
-          <ul class="flexblock infotable">
-            <li class="labels"><p class="title">Título</p><p class="date">Atualizado</p></li>
-            <li><p class="title"><a href="">Gestão de Configuração de Software</a></p><p class="date">01/11/2018</p></li>
-          </ul>
-        </div>
+      <section class="tab-pane fade" id="textos">
+        <h3 class="text-center"><b>Textos</b></h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>&nbsp;</th>
+              <th class="text-date">Atualizado</th>
+            </tr>
+          </thead>
+          <tr>
+            <th><a href="texto/exemplo/">Texto exemplo</a></th>
+            <td class="text-date">01/11/2018</td>
+          </tr>
+        </table>
+      </section>
+      <section class="tab-pane fade" id="apresentacoes">
+        <h3 class="text-center"><b>Apresentações</b></h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>&nbsp;</th>
+              <th class="text-date">Atualizado</th>
+            </tr>
+          </thead>
+          <tr>
+            <th><a href="slide/exemplo/">Apresentação exemplo</a></th>
+            <td class="text-date">01/11/2018</td>
+          </tr>
+        </table>
       </section>
     </article>
   </main>
 </body>
-<script src="webslides.min.js"></script>
-<script>window.ws = new WebSlides()</script>
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<!-- popperjs -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<!-- bootstrap -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script>
+function showNav(e) {
+  $('.nav-link').fadeIn(300);
+}
+function hideNav(e) {
+  $('.nav-link').fadeOut(1300);
+}
+$(document).ready(function () {
+  $('.fadeInHover').hover( showNav, hideNav );
+  hideNav()
+});
+</script>
 </html>
