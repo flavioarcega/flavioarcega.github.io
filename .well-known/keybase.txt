@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/flavioarcega
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://flavio.arcega.com.br
+  * I am flavioarcega (https://keybase.io/flavioarcega) on keybase.
+  * I have a public key ASD96zSbXvlYfqSMh0zh_79r29I8NdAVLvNQ0ccj83xunAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01200e0d889170899df00c92dcc9906b8e0851596eb03bf0b23d4b2eac7b37422f280a",
+      "host": "keybase.io",
+      "kid": "0120fdeb349b5ef9587ea48c874ce1ffbf6bdbd23c35d0152ef350d1c723f37c6e9c0a",
+      "uid": "8eb633c0e83e5f214869f6b0d5108819",
+      "username": "flavioarcega"
+    },
+    "merkle_root": {
+      "ctime": 1545934945,
+      "hash": "658a39d78925e64a0775115e51a491c30f0b01ea1fda7e238906a48b19e781167b4e80e70bf327412e1b39a41d402de74c4f3826c004469d6ee83a2c0de8ead0",
+      "hash_meta": "95bdaf7eda60e7f99db1f40ed7b81ba0dc625e26721906994632f7f5ee6a0a37",
+      "seqno": 4200195
+    },
+    "service": {
+      "entropy": "VCt1Pv8AOjssf83uJ+9WcqBW",
+      "hostname": "flavio.arcega.com.br",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.13.0"
+  },
+  "ctime": 1545935025,
+  "expire_in": 504576000,
+  "prev": "1ce2d402cdff089ea8f56feee14c13b35bde788ff739ff59a2d0286d557c0c70",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg/es0m175WH6kjIdM4f+/a9vSPDXQFS7zUNHHI/N8bpwKp3BheWxvYWTESpcCDMQgHOLUAs3/CJ6o9W/u4UwTs1veeI/3Of9ZotAobVV8DHDEIOkCyt3c2PLYXzpz+YuCnl3Qcte6pC5ji5Vlhr9f3c85AgHCo3NpZ8RAGyPmwpbTOxKrdg9w4EVDWg8R1UDAkswoRgFTKQCVppr+P933QZUB0UKe8mUZk3f/YaUQCy6zDorQOYjZqteSB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIG49Zu/or6qqMm/YuuoY/ylyjIgMcVASrUGOg/8Obs4io3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/flavioarcega
+
+==================================================================
